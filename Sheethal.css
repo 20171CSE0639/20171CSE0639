@@ -1,16 +1,68 @@
 body		
 {
-	background-image:url("/home/Sem6B10/Desktop/Untitled Folder/1468-shadow-zone-ocean_1024.jpg");		
+	background-image:url("/home/Sem6B10/Desktop/Untitled Folder/smiley.jpeg");		
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 	
+	
 }
 	h1{
-	    color:maroon;
+	    color:pink;
 	    margin-left:40px;
+	    text-align:center;
+	    text-decoration:underline;
+	    text-transform:capitalize;
+	    border:dashed;
+	    border-width:5px;
+	    
 	  }
-	h2{
-	    color:blue;
-	    margin-left:40px;
-	}
- 
+	p.special{
+		font-style:bold;
+		color:green;
+		font-family:georgia,garamond,serif,fantasy;
+		font-size:200%;
+		direction:rtl;
+		text-align:right;
+	    	text-decoration:line-through;
+		text-transform:uppercase;
+		text-shadow:5px 6px 10px red;
+		border:ridge;
+		 }
+
+	p.normal{
+	   	font-style:italic;
+	  	font-weight:bolder;
+	  	font-size:150%;
+	   	text-indent:2cm;
+	   	word-spacing:5px;
+	   	letter-spacing:5px;
+	   	text-align:left;
+	  	text-decoration:overline;
+	  	text-decoration:blink;
+		text-transform:lowercase;
+		box-shadow: 5px 5px red;
+		}
+
+	p.one{
+	     border-style: solid;
+	     border-color: pink;
+	     border-width: 2px 10px 5px 15px;
+
+	     }
+	
+	p.two{
+	     border-style: solid;
+	     border-color: orange;
+	     border-width: 5px;
+	     border-top-style: dotted;
+	     border-bottom-style: inset;
+	     border-right-style: outset;
+	     border-left-style: double;
+	     border-left: 6px solid red;
+	     }
+	
+
+	img.st:hover{	
+		    height:60;width:60;opacity:0.5;
+		    }
+
