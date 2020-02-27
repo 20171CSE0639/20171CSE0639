@@ -1,0 +1,130 @@
+
+<html>
+<head>
+<title>SAMPLE WEBSITE</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgba(255, 99, 71, 0.5);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: #123;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: rgba(255, 99, 71, 1);
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <marquee direction="left;"> PRESIDENCY UNIVERSITY </marquee>
+</header>
+
+<section>
+  <nav>
+      <h1 align="left"> B.Tech courses </h1>
+	<UL>
+	<LI> Civil </LI>
+	<LI> Mechnical </LI>
+	<LI style="background-color:red;"> Computer Science </LI>
+	    <OL>
+	<LI>CE</LI>
+	<LI>ISE</LI>
+	<LI>COM</LI>
+	</OL>
+	</UL>
+	<UL>
+	<LI>Petroleum</LI>
+	<LI>Electronics</LI>
+	</UL>
+  </nav>
+  
+  <article>
+    <h1 align="center" text-decoration="underline"> Welcome to CSE Dept </h1>
+    <p align="center"> Department of Computer science has three batches of students.</p>
+    <OL TYPE="a">
+		<LI>8th SEM</LI>
+		<LI>6th SEM</LI>
+		<LI>4th SEM</LI>
+		</OL>
+  </article>
+</section>
+
+<footer>
+  <p font-size="50px;">PRESIDENCY UNIVERSITY</p>
+</footer>
+	
+<br>
+	<table align="center" border="1" width="300" cellspacing="2" cellpadding="2">
+	<Caption align="top"> 8th Sem </caption>
+	<tr>
+		<th> Group A </th>
+		<th> Group B </th>
+		</tr>
+		<tr>
+		<td> IP Batch </td>
+		<td> Non-IP Batch </td> 
+		</tr>
+
+</body>
+
+
+</html>
+
