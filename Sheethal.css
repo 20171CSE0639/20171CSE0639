@@ -49,6 +49,7 @@ body
 	     border-style: solid;
 	     border-color: pink;
 	     margin: 25px 50px 75px 100px;
+	     padding:25px 50px 75px 100px;
 
 	     }
 	
@@ -62,7 +63,92 @@ body
 	     border-left-style: double;
 	     border-left: 6px solid red;
 	     }
+
+	p.three{
+	     border:2px dashed green;
+	     padding:5px;
+	     margin:2cm;
+	       }
+
+
+
+	li{
+	   display:block;
+	  }
 	
+
+
+	span.a{
+		display:inline;/*the default for span*/
+		width:100px;
+		height:100px;
+		padding:5px;
+		border:2px solid blue;
+		background-color:yellow;
+	      }
+
+
+	span.b{
+		display:inline-block;
+		width:100px;
+		height:100px;
+		padding:5px;
+		border:2px solid blue;
+		background-color:yellow;
+	      }
+
+
+	span.c{
+		display:block;
+		width:100px;
+		height:100px;
+		padding:5px;
+		border:2px solid blue;
+		background-color:yellow;
+	      }
+
+
+
+	.w{
+	    color:black;
+	   }
+
+	.x{
+	    color:green;
+	    text-decoration:none;
+	    margin:1cm;
+	   }
+
+	.y{
+	     border:2px groove green;
+	     padding:5px;
+	     margin:1cm;
+	     text-decoration:none;
+	   }
+
+	.z{
+	     border:2px;
+	     background-color:orange;
+	     padding:5px;
+	     margin:1cm;
+	     text-decoration:none;
+	   }
+
+
+
+	a.y:hover{
+		color:red;
+		}
+
+	a.x:visited{
+		color:red;
+		}
+
+	a.z:active{
+		color:white;
+		}
+
+
 
 	img.st:hover{	
 		    height:60;width:60;opacity:0.5;
