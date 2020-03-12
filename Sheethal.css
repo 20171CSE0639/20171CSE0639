@@ -148,9 +148,57 @@ body
 		color:white;
 		}
 
+	
+	#grad{ background-image:linear-gradient(red,lightblue);}
+	#abc{background-image:linear-gradient(-90deg,red,blue,yellow,green);}
+	#xyz{background-image:radial-gradient(red,yellow);}
+	#ab{background-image:linear-gradient(to right, rgba(255,0,0,0),rgba(255,0,0,1));}
+
+	div.pqrs{
+	   width:100px;
+	   height:100px;
+	   background-color:red;
+	   transition:width 2s, height 4s,transform 2s;
+	   }
+
+	div:hover{
+		width:300px;
+		height:300px;
+		border-radius:180px;
+		transform:rotate(180deg);
+		}
+
+
+	div.pqrs1{
+  -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+  transition: width 2s, height 2s, transform 2s;
+		}
+
+	div.it{
+	   width:100px;
+	   height:100px;
+	   background-color:blue;
+	   animation-name:example;
+	   animation-duration:3s;
+		}
+
+	@keyframes example{
+		from{background-color:red;}
+		to{background-color:yellow;}
+			}
+		
 
 
 	img.st:hover{	
 		    height:60;width:60;opacity:0.5;
 		    }
+
+
+
+
+
+
+
+
+
 
